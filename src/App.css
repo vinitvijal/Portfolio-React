@@ -129,8 +129,12 @@ header nav a:hover::after {
 }
 
 
-.socialmedia img {
+.socialmedia a {
   height: 60%;
+}
+
+.socialmedia img {
+  height: 100%;
 }
 
 #myphoto {

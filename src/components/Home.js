@@ -7,6 +7,7 @@ import youtube from '../asset/youtube.svg'
 import instagram from '../asset/instagram.svg'
 import myphoto from '../asset/my-photo.jpg'
 import Tilt from 'react-parallax-tilt';
+import { Link } from 'react-router-dom';
 
 
 
@@ -64,9 +65,15 @@ const Home = () => {
                                 </h4>
                             </div>
                             <div  style={{'width':'96%','height':'20%'}} className='displayflex jc-space-evenly alignitem socialmedia'>
-                            <img src={instagram} alt="insta" />
-                            <img src={youtube} alt="insta" />
-                            <img src={linkedin} alt="insta" />
+                        <a href='https://instagram.com/its.vinit_vijal__' target='__blank'>
+                                    <img src={instagram} alt="insta" />
+                                </a>
+                                <a href='https://www.youtube.com/@CodeVinu' target='__blank'>
+                                    <img src={youtube} alt="insta" />
+                                </a>
+                                <a href='https://www.linkedin.com/in/vinit-vijal-87563723a/' target='__blank'>
+                                    <img src={linkedin} alt="insta" />
+                                </a>
                             </div>
                         </Tilt>
                     </div>
