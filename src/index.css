@@ -11,3 +11,68 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+.displayflex {
+  display: flex;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.jc-space-evenly {
+  justify-content: space-evenly;
+}
+
+.jc-space-between {
+  justify-content: space-between;
+}
+
+.jc-space-around {
+  justify-content: space-around;
+}
+
+.alignitem {
+  align-items: center;
+
+}
+
+
+.flexcolumn {
+  flex-direction: column;
+}
+
+
+.h100 {
+  height: 100%;
+}
+
+.h80 {
+  height: 80%;
+}
+
+.h10 {
+  height: 10%;
+}
+
+.h80 {
+  height: 80%;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.w70 {
+  width: 70%;
+}
+
+.w25 {
+  width: 25%;
+}
+
+.w80 {
+  width: 80%;
+}

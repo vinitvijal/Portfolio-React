@@ -1,38 +1,146 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+background: rgb(21,22,27);
+/* background-color: black; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#header {
+  font-size: 1.2em;
+  z-index: 1;
+  position: fixed;
+  width: 100vw;
+  height: 10vh;
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+
+
+header h1 {
+  color: #c770f0;
+  margin-left: 2vw;
+
+}
+
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40vw;
+  margin-right: 2vw;
+}
+header nav a {
+  display: inline-block;
+  box-sizing: border-box;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+header nav a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 3px;
+  background: #c770f0;
+  transition: width .3s;
+}
+
+header nav a:hover::after {
+  width: 100%;
+}
+
+
+.Home {
+  min-height: 100vh;
+}
+
+.Home #Intro {
+
+  z-index: 0;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Home #Intro .svg-zone {
+  width: 50%;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+
+.svg-zone img {
+  width: 60%;
+}
+
+
+
+.fixed-text-zone {
+    font-size: 1.4em;
+}
+
+
+#Intro .text-zone {
   color: white;
+  height: 50%;
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items:baseline;
+  flex-direction: column;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+.typewriter-div{
+  font-size: 1.6em;
+  color:#FEA1BF;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#homebg {
+  width: 100%;
+  z-index: -2;
+  opacity: 0.1;
+  position: absolute;
+}
+
+#personalIntro {
+  box-sizing: border-box;
+  /* border: 1px solid white; */
+  color: white;
+
+}
+
+#personalIntro div{
+  box-sizing: border-box;
+  /* border: 1px solid white; */
+}
+
+
+.socialmedia img {
+  height: 60%;
+}
+
+#myphoto {
+  height: 60%;
+  object-fit:fill;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.tiltprofile:hover {
+  background: rgba(31, 31, 31, 0.5);
+  /* background:  #fff; */
 }
