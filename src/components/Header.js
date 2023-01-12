@@ -19,11 +19,11 @@ const Header = () => {
 
         if (window.scrollY >= 40 && window.scrollY < 240){
           headerCode.style.backdropFilter = 'blur(10px)';
-          headerCode.style.boxShadow = '0 -30px 15px 0px white';
+          headerCode.style.boxShadow = '0 -20px 15px 10px white';
           headerCode.style.transition = '0.5s';
           headingH1.style.color = '#c770f0';
         }else if (window.scrollY >= 240){
-            headerCode.style.boxShadow = '0 -30px 15px 0px white';
+            headerCode.style.boxShadow = '0 -20px 15px 10px white';
             headingH1.style.color = 'white';
             headingH1.style.transition = '1s';
         } else{

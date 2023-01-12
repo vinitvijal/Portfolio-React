@@ -7,7 +7,6 @@ import youtube from '../asset/youtube.svg'
 import instagram from '../asset/instagram.svg'
 import myphoto from '../asset/my-photo.jpg'
 import Tilt from 'react-parallax-tilt';
-import { Link } from 'react-router-dom';
 
 
 
@@ -19,8 +18,6 @@ const Home = () => {
 
     return (
         <>
-   
-
         <div className='Home' id="starshine">
             <section id='Intro' className='template shine'>
                 <div className="text-zone">

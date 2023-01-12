@@ -36,6 +36,8 @@ header nav {
   width: 40vw;
   margin-right: 2vw;
 }
+
+
 header nav a {
   display: inline-block;
   box-sizing: border-box;
@@ -51,6 +53,7 @@ header nav a::after {
   height: 3px;
   background: #c770f0;
   transition: width .3s;
+
 }
 
 header nav a:hover::after {
