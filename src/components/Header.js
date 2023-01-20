@@ -50,7 +50,7 @@ const Header = () => {
             <nav>
                 <Link to={'/'}>Home</Link>
                 <Link to={'/'}>Projects</Link>
-                <Link to={'/'}>About</Link>
+                <Link to={'/resume'}>Resume</Link>
                 <Link to={'/'}>Contact</Link>
                 <a href='https://github.com/vinitvijal' target={'__blank'}>
                     <button>GitHub</button>

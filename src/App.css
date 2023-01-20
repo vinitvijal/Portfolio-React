@@ -30,22 +30,40 @@ header h1 {
 
 
 header nav {
+  width: 50vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 40vw;
   margin-right: 2vw;
 }
 
 
 header nav a {
-  display: inline-block;
+
   box-sizing: border-box;
   color: white;
   text-decoration: none;
   font-weight: 700;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2em;
+  border-radius: 50px;
+  padding: 0 15px;
+  transition: 0.2s;
 }
 
+header nav a:hover {
+  /* background: linear-gradient(61deg,#7b7bff, #ff395c); */
+  background  :linear-gradient(45deg, red, blue);
+  transform:scale(1.1);
+
+  /* color: transparent; */
+}
+
+
+/* 
 header nav a::after {
   content: '';
   display: block;
@@ -58,7 +76,7 @@ header nav a::after {
 
 header nav a:hover::after {
   width: 100%;
-}
+} */
 
 
 .Home {
@@ -108,7 +126,8 @@ header nav a:hover::after {
 
 .typewriter-div{
   font-size: 1.6em;
-  color:#FEA1BF;
+  /* color:#FEA1BF; */
+  
   
 }
 
@@ -147,7 +166,41 @@ header nav a:hover::after {
   border: 2px solid white;
 }
 
+
 .tiltprofile:hover {
-  background: rgba(31, 31, 31, 0.5);
+
+  /* background: rgba(31, 31, 31, 0.5); */
+  background: linear-gradient(309deg, #3a3c3c 0%, #180133 100%);
+
   /* background:  #fff; */
+}
+
+.tiltprofile:hover .purplelove {
+  transition: 1s;
+  background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+
+.rainbow {
+  background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+
+footer {
+  background-color: #49135a39;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  height: 10vh;
+  font-weight: 300;
+  align-items: center;
+}
+
+footer h2 {
+  font-weight: 300;
+  
 }
