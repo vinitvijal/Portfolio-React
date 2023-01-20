@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Typewriter } from 'react-simple-typewriter';
+import CIcon from '@coreui/icons-react';
+import * as icon from '@coreui/icons';
+import { FaGithub } from 'react-icons/fa';
+
 
 const Header = () => {
     const [headerCode, setHeaderCode] = useState();
@@ -53,7 +57,9 @@ const Header = () => {
                 <Link to={'/resume'}>Resume</Link>
                 <Link to={'/'}>Contact</Link>
                 <a href='https://github.com/vinitvijal' target={'__blank'}>
-                    <button>GitHub</button>
+                <h3> 
+                    <FaGithub />
+                </h3>
                 </a>
             </nav>
 
