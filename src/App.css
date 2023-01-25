@@ -209,3 +209,60 @@ footer h2 {
 section span:hover {
   font-weight: 700;
 }
+
+
+
+#resume {
+  position: absolute;
+  top: 20vh;
+  width: 100vw;
+}
+
+
+#resume section {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+#resume section div {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* color: #cf23cf; */
+  font-size: 1.6em;
+}
+
+#resume section div img {
+  border: 5px dotted rgb(255, 255, 255);
+}
+
+
+#resume section div h1 {
+  margin-bottom: 50px;
+  border-bottom: 5px dotted white;
+}
+
+
+#resume section div a {
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  background-color: #180133;
+  padding: 5px 20px;
+  border-radius: 50px;
+  font-size: 0.8em;
+  transition: 0.5s;
+
+}
+
+#resume section div a:hover {
+  font-size: 1em;
+  box-shadow: 0px 0px 60px -10px white;
+}

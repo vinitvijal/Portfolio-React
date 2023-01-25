@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/Header';
 import Home from './components/Home';
 import Resume from './components/Resume';
+import {analytics} from './firebase'
 
 
 
@@ -11,7 +12,7 @@ import Resume from './components/Resume';
 
 function App() {
   
-  
+  console.log(analytics)
   return (
     <Router>
       <Header/>

@@ -7,6 +7,7 @@ import youtube from '../asset/youtube.svg'
 import instagram from '../asset/instagram.svg'
 import myphoto from '../asset/my-photo.jpg'
 import Tilt from 'react-parallax-tilt';
+import Footer from './Footer';
 
 
 
@@ -55,10 +56,10 @@ const Home = () => {
 
                         
                         <Tilt glarePosition={'all'} glareBorderRadius={'30px'} glareEnable={true} glareColor={'#fff'} style={{'width':'96%','height':'86%','border':'1px solid white', borderRadius:'30px'}} className='tiltprofile displayflex jc-space-evenly alignitem flexcolumn' >
-                            <div style={{'width':'96%','max-height':'50%'}} className='displayflex alignitem jc-center'>
+                            <div style={{'width':'96%','maxHeight':'50%'}} className='displayflex alignitem jc-center'>
                                 <img src={myphoto} alt="myphoto" id='myphoto' />
                             </div>
-                            <div  style={{'width':'96%','min-height':'22%'}}>
+                            <div  style={{'width':'96%','minHeight':'22%'}}>
                                 <h4 style={{textAlign:'center'}}>
                                     SSCBS’25/26 (BSc CS) | Tech Enthusiast | <span className='purplelove'>Programming</span> | Photography | Python | <span className='purplelove'>ReactJS ❤️</span> | <span className='purplelove'>Express Node - Web Development</span> | C++ | 99.2%ile in CUET
                                 </h4>
@@ -80,9 +81,7 @@ const Home = () => {
             </section>
             
         </div>
-        <footer>
-                <h2 style={{color: 'white'}}>Developed With ❤️ By <span className='rainbow'>Vinit</span></h2>
-        </footer>
+        <Footer/>
         
 
         </>
